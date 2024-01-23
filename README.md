@@ -31,7 +31,7 @@ Embeddings from learned generative model:
 
 # Examples with the MMD-VAE
 
-To train and visualize the classical VAE, you can use:
+To train and visualize the MMD-VAE, you can use:
 ```
 python main.py --verbose --plot --mode mmd
 ```
