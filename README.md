@@ -16,12 +16,30 @@ Other versions of the above packages may work but have not been tested.
 
 # Examples with the classical VAE
 
+To train and visualize the classical VAE, you can use:
+```
+python main.py --verbose --plot --mode vae
+```
+
+Samples from learned generative model:
+
 ![](res/mnist_vae.png)
+
+Embeddings from learned generative model:
 
 ![](res/embeddings_vae.png)
 
 # Examples with the MMD-VAE
 
+To train and visualize the classical VAE, you can use:
+```
+python main.py --verbose --plot --mode mmd
+```
+
+Samples from learned generative model:
+
 ![](res/mnist_mmd.png)
+
+Embeddings from learned generative model:
 
 ![](res/embeddings_mmd.png)
